@@ -4,7 +4,7 @@ function Navbar() {
   return (
     <div className="d-flex justify-content-center">
       <nav className="navbar navbar-expand-lg bg-light">
-        <Link className="nav-link active" to="/">
+        <Link className="nav-link active" to="/Portfolio_React_Edition">
           Home
         </Link>
         <Link className="nav-link active" to="/portfolio">
