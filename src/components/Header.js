@@ -1,9 +1,9 @@
 function Header() {
-    return (
-      <header>
+  return (
+    <header>
       <h1>Alvin Pollard</h1>
-      </header>
-    )
-  }
+    </header>
+  );
+}
 
-  export default Header;
+export default Header;

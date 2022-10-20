@@ -2,7 +2,16 @@
   text-align: center;
 }
 
+h1 {
+  font-size: 48px;
+}
+
 .nav-link {
   padding-left: 5px;
   padding-right: 5px;
+}
+
+nav {
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
