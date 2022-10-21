@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: royalblue;
 }
 
 h1 {
@@ -14,4 +15,19 @@ h1 {
 nav {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.card:first-child {
+  max-width: 85%;
+  margin: 10px;
+}
+
+.card {
+  max-width: 40%;
+  margin: 10px;
+}
+
+.portfolio-container {
+  flex-wrap: wrap;
+  justify-content: center;
 }
