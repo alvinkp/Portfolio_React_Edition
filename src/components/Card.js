@@ -9,7 +9,7 @@ function Card(props) {
         alt={props.data.imgAltText}
       />
       <div className="card-body">
-        <h5 className="card-title">{props.data.cardTitle}</h5>
+        <h5 className="card-title fs-2">{props.data.cardTitle}</h5>
         <p className="card-text">{props.data.cardText}</p>
 
         <a href={props.data.cardLink}>
