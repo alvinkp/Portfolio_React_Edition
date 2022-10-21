@@ -4,18 +4,6 @@ import Navbar from "./components/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Portfolio, Resume, Contact } from "./components/Main";
 
-const portfolio = [
-  {
-    imgLink: "./images/RigMatchMe.PNG",
-    imgAltText:
-      "Screenshot of RigMatchMe site showing an over the shoulder picture of a drummer at a concert.",
-    cardTitle: "Rig Match Me",
-    cardText:
-      '"Rig Match Me", is where budding musicians go to find the best gear!',
-    cardLink: "https://www.rigmatchme.com",
-  },
-];
-
 function App() {
   return (
     <div className="App">
