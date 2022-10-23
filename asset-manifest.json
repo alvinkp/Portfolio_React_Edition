@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio_React_Edition/static/css/main.9d5d439c.css",
-    "main.js": "/Portfolio_React_Edition/static/js/main.fcbe7e0b.js",
+    "main.css": "/Portfolio_React_Edition/static/css/main.fb4696b6.css",
+    "main.js": "/Portfolio_React_Edition/static/js/main.ef7a6926.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio_React_Edition/static/js/787.1ed0c42c.chunk.js",
     "static/media/RigMatchMe.PNG": "/Portfolio_React_Edition/static/media/RigMatchMe.af3507347d8752c89460.PNG",
     "static/media/CodeMonsters.png": "/Portfolio_React_Edition/static/media/CodeMonsters.667ecba45de3d1372a86.png",
@@ -9,12 +9,12 @@
     "static/media/WIDS_Game.png": "/Portfolio_React_Edition/static/media/WIDS_Game.24367a07040ddaf1e0b6.png",
     "static/media/TheConcourse.jpg": "/Portfolio_React_Edition/static/media/TheConcourse.0949a463b46003ec3e6c.jpg",
     "index.html": "/Portfolio_React_Edition/index.html",
-    "main.9d5d439c.css.map": "/Portfolio_React_Edition/static/css/main.9d5d439c.css.map",
-    "main.fcbe7e0b.js.map": "/Portfolio_React_Edition/static/js/main.fcbe7e0b.js.map",
+    "main.fb4696b6.css.map": "/Portfolio_React_Edition/static/css/main.fb4696b6.css.map",
+    "main.ef7a6926.js.map": "/Portfolio_React_Edition/static/js/main.ef7a6926.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio_React_Edition/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9d5d439c.css",
-    "static/js/main.fcbe7e0b.js"
+    "static/css/main.fb4696b6.css",
+    "static/js/main.ef7a6926.js"
   ]
 }
