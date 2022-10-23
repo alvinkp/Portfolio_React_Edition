@@ -21,6 +21,10 @@ h1 {
   padding-right: 10px;
 }
 
+.active {
+  font-weight: bolder;
+}
+
 nav {
   margin-top: 10px;
   margin-bottom: 10px;
