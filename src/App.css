@@ -81,6 +81,9 @@ nav {
 
 .contact-container button {
   font-size: 1.5rem;
+  font-weight: 700;
+  color: antiquewhite;
+  background-color: #434343;
 }
 
 .contact-container:nth-child(odd) {

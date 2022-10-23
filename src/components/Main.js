@@ -1,3 +1,5 @@
+import { useState } from "react";
+import { validateEmail } from "../utils/helpers";
 import Card from "./Card";
 import RigMatchMeLogo from "../imgs/RigMatchMe.PNG";
 import CodeMonstersLogo from "../imgs/CodeMonsters.png";
@@ -87,16 +89,86 @@ export function Resume() {
 }
 
 export function Contact() {
+  const [email, setEmail] = useState("");
+  const [name, setName] = useState("");
+  const [message, setMessage] = useState("");
+  const [errorMessage, setErrorMessage] = useState("");
+
+  const handleInputChange = (e) => {
+    const { target } = e;
+    const inputType = target.name;
+    const inputValue = target.value;
+
+    if (inputType === "email") {
+      setEmail(inputValue);
+    } else if (inputType === "name") {
+      setName(inputValue);
+    } else {
+      setMessage(inputValue);
+    }
+  };
+
+  const handleBlur = (e) => {
+    if (e.target.name === "email") {
+      if (!validateEmail(e.target.value)) {
+        setErrorMessage("Please enter a valid email address.");
+        return;
+      }
+    }
+    if (e.target.name === "name" && e.target.value.length === 0) {
+      setErrorMessage("Please enter a name.");
+      return;
+    }
+    if (e.target.name === "message" && e.target.value.length === 0) {
+      setErrorMessage("Please enter a message.");
+      return;
+    }
+  };
+
+  const handleFormSubmit = (e) => {
+    if (!validateEmail(email)) {
+      setErrorMessage("Please enter a valid email address.");
+      return;
+    }
+    if (name.length === 0) {
+      setErrorMessage("Please enter a name.");
+      return;
+    }
+    if (message.length === 0) {
+      setErrorMessage("Please enter a message.");
+      return;
+    }
+    alert(`Thanks for reaching out to me! I'll be in touch soon!`);
+
+    setName("");
+    setEmail("");
+    setMessage("");
+    setErrorMessage("");
+    e.preventDefault();
+  };
+
   return (
     <div className="contact-parent">
-      <div className="contact-container">
+      <form className="form contact-container">
         <div className="mb-3">
           <label className="form-label">Name</label>
-          <input type="text" className="form-control" id="nameField" />
+          <input
+            value={name}
+            name="name"
+            onChange={handleInputChange}
+            onBlur={handleBlur}
+            type="text"
+            className="form-control"
+            id="nameField"
+          />
         </div>
         <div className="mb-3">
           <label className="form-label">Email address</label>
           <input
+            value={email}
+            name="email"
+            onChange={handleInputChange}
+            onBlur={handleBlur}
             type="email"
             className="form-control"
             id="emailField"
@@ -106,15 +178,28 @@ export function Contact() {
         <div className="mb-3">
           <label className="form-label">Message</label>
           <textarea
+            value={message}
+            name="message"
             className="form-control"
+            onChange={handleInputChange}
+            onBlur={handleBlur}
             id="messageField"
             rows="7"
-          ></textarea>
+          />
         </div>
-        <button type="button" className="btn btn-secondary">
+        <button
+          type="button"
+          onClick={handleFormSubmit}
+          className="btn btn-secondary"
+        >
           Submit
         </button>
-      </div>
+        {errorMessage && (
+          <div>
+            <p className="error-text">{errorMessage}</p>
+          </div>
+        )}
+      </form>
     </div>
   );
 }
