@@ -88,8 +88,33 @@ export function Resume() {
 
 export function Contact() {
   return (
-    <div>
-      <h1>Contact Me</h1>
+    <div className="contact-parent">
+      <div className="contact-container">
+        <div className="mb-3">
+          <label className="form-label">Name</label>
+          <input type="text" className="form-control" id="nameField" />
+        </div>
+        <div className="mb-3">
+          <label className="form-label">Email address</label>
+          <input
+            type="email"
+            className="form-control"
+            id="emailField"
+            placeholder="name@example.com"
+          />
+        </div>
+        <div className="mb-3">
+          <label className="form-label">Message</label>
+          <textarea
+            className="form-control"
+            id="messageField"
+            rows="7"
+          ></textarea>
+        </div>
+        <button type="button" className="btn btn-secondary">
+          Submit
+        </button>
+      </div>
     </div>
   );
 }
