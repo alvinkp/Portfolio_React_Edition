@@ -7,7 +7,7 @@ import { About, Portfolio, Resume, Contact } from "./components/Main";
 import Footer from "./components/Footer";
 
 function App() {
-  const [currentPage, setCurrentPage] = useState("");
+  const [currentPage, setCurrentPage] = useState("Portfolio_React_Edition");
   const handlePageChange = (page) => setCurrentPage(page);
   return (
     <div className="App">

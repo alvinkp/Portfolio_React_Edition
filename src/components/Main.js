@@ -6,11 +6,30 @@ import CodeMonstersLogo from "../imgs/CodeMonsters.png";
 import EpicBrickBattleLogo from "../imgs/EpicBrickBattle.png";
 import TheConcourseLogo from "../imgs/TheConcourse.jpg";
 import WIDSLogo from "../imgs/WIDS_Game.png";
+import Avatar from "../imgs/AvatarForSite.png";
 
 export function About() {
   return (
     <div>
-      <h1>About Me</h1>
+      <div className="about-container">
+        <img
+          src={Avatar}
+          alt="A caricature of me, Alvin Pollard! I have tan skin, I wear glasses and have salt and pepper hair on my head and in my beard."
+        />
+        <div className="about-text">
+          <p>
+            My name is Alvin Pollard and I'm a Full Stack Web Developer /
+            Digital Artist and Independant Game Developer!
+          </p>
+          <br />
+          <p>
+            Please browse my site a while and feel free to reach me via my
+            Contact page.
+          </p>
+          <br />
+          <p>Thanks and have a wonderful day!</p>
+        </div>
+      </div>
     </div>
   );
 }
