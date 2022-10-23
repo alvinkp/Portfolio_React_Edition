@@ -82,14 +82,22 @@ nav {
   font-weight: 400;
   border: 2px;
   border-style: solid;
+  font-size: 1.25rem;
+  display: flex;
 }
 
 .card-title {
   font-family: "Fredoka One", cursive;
 }
 
-.card button {
+.button-box {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-box button {
   font-size: 1.5rem;
+  margin-top: 10px;
 }
 
 .portfolio-container {

@@ -3,9 +3,13 @@ import { validateEmail } from "../utils/helpers";
 import Card from "./Card";
 import RigMatchMeLogo from "../imgs/RigMatchMe.PNG";
 import CodeMonstersLogo from "../imgs/CodeMonsters.png";
+import Javascript_Code_Quiz from "../imgs/Challenge04_shot07.PNG";
+import WeatherApp from "../imgs/Challenge06_shot02.PNG";
+import BitsAndBytesLogo from "../imgs/Challenge12_shot02.PNG";
 import EpicBrickBattleLogo from "../imgs/EpicBrickBattle.png";
 import TheConcourseLogo from "../imgs/TheConcourse.jpg";
 import WIDSLogo from "../imgs/WIDS_Game.png";
+import HoriseonLogo from "../imgs/challenge01Screenshot.PNG";
 import Avatar from "../imgs/AvatarForSite.png";
 
 export function About() {
@@ -44,6 +48,7 @@ const portfolioCards = [
     cardText:
       '"Rig Match Me", is where budding musicians go to find the best gear!',
     cardLink: "https://www.rigmatchme.com",
+    gitLink: "https://github.com/avni0000patel/Rig-Match-Me",
   },
   {
     id: 2,
@@ -54,9 +59,66 @@ const portfolioCards = [
     cardText:
       '"Code Monsters", is a website for new developers to find a plethora of video tutorials easily!',
     cardLink: "https://jdanleano.github.io/Code-Monsters/",
+    gitLink: "https://github.com/jdanleano/Code-Monsters",
   },
   {
     id: 3,
+    imgLink: Javascript_Code_Quiz,
+    imgAltText:
+      "Screenshot of the Javascript_Code_Quiz in action, shows timer, high score and question in center of the screen.",
+    cardTitle: "~ Javascript Code Quiz ~",
+    cardText:
+      '"Javascript_Code_Quiz", Test your Javascript knowledge with this timed quiz featuring css animations, javascript driven transitions and highscores stored and retrieved via local storage',
+    cardLink: "https://alvinkp.github.io/Javascript_Code_Quiz/",
+    gitLink: "https://github.com/alvinkp/Javascript_Code_Quiz",
+  },
+  {
+    id: 4,
+    imgLink: BitsAndBytesLogo,
+    imgAltText:
+      "Screenshot of the create a post section of the Bits and Bytes Tech Blog interface.",
+    cardTitle: "~ Bits and Bytes Tech Blog ~",
+    cardText:
+      '"Bits and Bytes Tech Blog", is an node application with the ability to perform CRUD operations directly through the browser. It is a full stack web application.',
+    cardLink: "https://thawing-headland-69288.herokuapp.com/",
+    gitLink: "https://github.com/alvinkp/BitsAndBytesTechBlogCMS",
+  },
+  {
+    id: 5,
+    imgLink: HoriseonLogo,
+    imgAltText:
+      "Screenshot of the horiseon SEO website that specializes in Search engine optimization",
+    cardTitle: "~ Horiseon SEO Accessibility optimization ~",
+    cardText:
+      '"Horiseon SEO", specializes in Accessibility on the web. Their site needed to be updated to the latest Accessibility standards and I happily obliged.',
+    cardLink:
+      "https://alvinkp.github.io/Horiseon_Social_Solutions_Inc_Refactor/",
+    gitLink:
+      "https://github.com/alvinkp/Horiseon_Social_Solutions_Inc_Refactor",
+  },
+  {
+    id: 6,
+    imgLink: WeatherApp,
+    imgAltText:
+      "The Super Trip planner in action, showing the 5-day forecast from the currently searched city but also showing previous searches.",
+    cardTitle: "~ The Super Trip Planner ~",
+    cardText:
+      'The "Super Trip Planner", is the only weather app you need when you travel. Check the weather 5 days in advance and never be caught by surprise showers again!',
+    cardLink: "https://alvinkp.github.io/Super_Trip_Planner/",
+    gitLink: "https://github.com/alvinkp/Super_Trip_Planner",
+  },
+  {
+    id: 7,
+    imgLink: WIDSLogo,
+    imgAltText:
+      "West Indian Dominoes Simulator logo showing player avatars playing dominoes.",
+    cardTitle: "~ W.I.D.S ~",
+    cardText:
+      '"West Indian Dominoes Simulator", puts you in control of a robot that is learning how to play Dominoes like West Indians do. This game contains profanity from West Indian Countries. If you are not from the West Indies, the words you hear may not make sense because I had a particular audience in mind. Regardless, you can still play dominoes against 3 computer players.',
+    cardLink: "https://alvinkpollard.itch.io/wids",
+  },
+  {
+    id: 8,
     imgLink: EpicBrickBattleLogo,
     imgAltText:
       "Screenshot of Epic Brick Battle Game showing the arena where you will do battle!",
@@ -66,7 +128,7 @@ const portfolioCards = [
     cardLink: "https://alvinkpollard.itch.io/epic-brick-battle",
   },
   {
-    id: 4,
+    id: 9,
     imgLink: TheConcourseLogo,
     imgAltText:
       "The Concourse logo showing a stylized person running to the right.",
@@ -74,16 +136,6 @@ const portfolioCards = [
     cardText:
       '"The Concourse", is a highly competitive racing game that forces players to literally think on their feet. Use your wits and reflexes to conquer randomly generated courses while staying ahead of your opponents. Win and influence the future races by choosing a modifier, increasing the challenge!',
     cardLink: "https://store.steampowered.com/app/468780/The_Concourse/",
-  },
-  {
-    id: 5,
-    imgLink: WIDSLogo,
-    imgAltText:
-      "West Indian Dominoes Simulator logo showing player avatars playing dominoes.",
-    cardTitle: "~ W.I.D.S ~",
-    cardText:
-      '"West Indian Dominoes Simulator", puts you in control of a robot that is learning how to play Dominoes like West Indians do. This game contains profanity from West Indian Countries. If you are not from the West Indies, the words you hear may not make sense because I had a particular audience in mind. Regardless, you can still play dominoes against 3 computer players.',
-    cardLink: "https://alvinkpollard.itch.io/wids",
   },
 ];
 
