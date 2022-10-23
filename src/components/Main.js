@@ -5,6 +5,14 @@ import EpicBrickBattleLogo from "../imgs/EpicBrickBattle.png";
 import TheConcourseLogo from "../imgs/TheConcourse.jpg";
 import WIDSLogo from "../imgs/WIDS_Game.png";
 
+export function About() {
+  return (
+    <div>
+      <h1>About Me</h1>
+    </div>
+  );
+}
+
 const portfolioCards = [
   {
     id: 1,

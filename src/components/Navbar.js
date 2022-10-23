@@ -5,13 +5,16 @@ function Navbar() {
     <div className="d-flex flex-wrap justify-content-center">
       <nav className="navbar navbar-expand-lg">
         <Link className="nav-link active fs-3" to="/Portfolio_React_Edition">
+          About Me
+        </Link>
+        <Link className="nav-link active fs-3" to="/portfolio">
           Portfolio
         </Link>
         <Link className="nav-link active fs-3" to="/resume">
           Resume
         </Link>
         <Link className="nav-link active fs-3" to="/contact">
-          Contact Me
+          Contact
         </Link>
       </nav>
     </div>
