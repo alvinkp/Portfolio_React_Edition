@@ -11,6 +11,7 @@ import TheConcourseLogo from "../imgs/TheConcourse.jpg";
 import WIDSLogo from "../imgs/WIDS_Game.png";
 import HoriseonLogo from "../imgs/challenge01Screenshot.PNG";
 import Avatar from "../imgs/AvatarForSite.png";
+import resumeFile from "../files/AlvinPollardResume.pdf";
 
 export function About() {
   return (
@@ -153,8 +154,8 @@ export function Portfolio() {
 
 export function Resume() {
   return (
-    <div>
-      <h1>Resume</h1>
+    <div className="resume-container">
+      <iframe view="FitH" title="resume" src={resumeFile} />
     </div>
   );
 }
