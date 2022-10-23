@@ -155,6 +155,17 @@ export function Portfolio() {
 export function Resume() {
   return (
     <div className="resume-container">
+      <div className="proficiencies">
+        <ul>
+          <li>~ Proficiencies ~</li>
+          <li>Javascript</li>
+          <li>Node.js</li>
+          <li>React.js</li>
+          <li>Express.js</li>
+          <li>CSS</li>
+          <li>Bootstrap</li>
+        </ul>
+      </div>
       <iframe view="FitH" title="resume" src={resumeFile} />
     </div>
   );
