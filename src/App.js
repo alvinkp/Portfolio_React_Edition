@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import Navbar from "./components/Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Portfolio, Resume, Contact } from "./components/Main";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </BrowserRouter>
+      <Footer year={new Date().getFullYear()} />
     </div>
   );
 }

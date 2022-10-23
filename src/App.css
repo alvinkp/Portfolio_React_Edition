@@ -61,6 +61,20 @@ nav {
   justify-content: center;
 }
 
+footer {
+  color: antiquewhite;
+  font-family: "Josefin Slab", serif;
+  font-weight: 700;
+  background-color: darkslategray;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+footer a {
+  padding-right: 10px;
+  color: yellow;
+}
+
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /*------------------------------------------- For Mobile Displays (PORTRAIT) ----------------------------------------------------*/
 /*-------------------------------------------------------------------------------------------------------------------------------*/
