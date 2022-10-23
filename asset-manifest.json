@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.css": "/Portfolio_React_Edition/static/css/main.fb4696b6.css",
-    "main.js": "/Portfolio_React_Edition/static/js/main.ef7a6926.js",
+    "main.css": "/Portfolio_React_Edition/static/css/main.dc309cee.css",
+    "main.js": "/Portfolio_React_Edition/static/js/main.5ad823db.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio_React_Edition/static/js/787.1ed0c42c.chunk.js",
     "static/media/RigMatchMe.PNG": "/Portfolio_React_Edition/static/media/RigMatchMe.af3507347d8752c89460.PNG",
+    "static/media/challenge01Screenshot.PNG": "/Portfolio_React_Edition/static/media/challenge01Screenshot.d26cae9d8f04321c74dd.PNG",
     "static/media/CodeMonsters.png": "/Portfolio_React_Edition/static/media/CodeMonsters.667ecba45de3d1372a86.png",
+    "static/media/Challenge04_shot07.PNG": "/Portfolio_React_Edition/static/media/Challenge04_shot07.e8659e32b6898fe68448.PNG",
+    "static/media/Challenge06_shot02.PNG": "/Portfolio_React_Edition/static/media/Challenge06_shot02.fce3963d21bd62fa3b6c.PNG",
     "static/media/EpicBrickBattle.png": "/Portfolio_React_Edition/static/media/EpicBrickBattle.ac722823a62957da0954.png",
     "static/media/WIDS_Game.png": "/Portfolio_React_Edition/static/media/WIDS_Game.24367a07040ddaf1e0b6.png",
+    "static/media/AlvinPollardResume.pdf": "/Portfolio_React_Edition/static/media/AlvinPollardResume.ae8b08755ce86c5c6cee.pdf",
     "static/media/TheConcourse.jpg": "/Portfolio_React_Edition/static/media/TheConcourse.0949a463b46003ec3e6c.jpg",
+    "static/media/AvatarForSite.png": "/Portfolio_React_Edition/static/media/AvatarForSite.349c54ff82a94c15e140.png",
+    "static/media/Challenge12_shot02.PNG": "/Portfolio_React_Edition/static/media/Challenge12_shot02.6522aa8bc1c469d00fc3.PNG",
     "index.html": "/Portfolio_React_Edition/index.html",
-    "main.fb4696b6.css.map": "/Portfolio_React_Edition/static/css/main.fb4696b6.css.map",
-    "main.ef7a6926.js.map": "/Portfolio_React_Edition/static/js/main.ef7a6926.js.map",
+    "main.dc309cee.css.map": "/Portfolio_React_Edition/static/css/main.dc309cee.css.map",
+    "main.5ad823db.js.map": "/Portfolio_React_Edition/static/js/main.5ad823db.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio_React_Edition/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb4696b6.css",
-    "static/js/main.ef7a6926.js"
+    "static/css/main.dc309cee.css",
+    "static/js/main.5ad823db.js"
   ]
 }
