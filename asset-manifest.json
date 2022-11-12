@@ -1,11 +1,12 @@
 {
   "files": {
     "main.css": "/Portfolio_React_Edition/static/css/main.dc309cee.css",
-    "main.js": "/Portfolio_React_Edition/static/js/main.5ad823db.js",
+    "main.js": "/Portfolio_React_Edition/static/js/main.de747864.js",
     "static/js/787.1ed0c42c.chunk.js": "/Portfolio_React_Edition/static/js/787.1ed0c42c.chunk.js",
     "static/media/RigMatchMe.PNG": "/Portfolio_React_Edition/static/media/RigMatchMe.af3507347d8752c89460.PNG",
     "static/media/challenge01Screenshot.PNG": "/Portfolio_React_Edition/static/media/challenge01Screenshot.d26cae9d8f04321c74dd.PNG",
     "static/media/CodeMonsters.png": "/Portfolio_React_Edition/static/media/CodeMonsters.667ecba45de3d1372a86.png",
+    "static/media/ArrayTheGame.PNG": "/Portfolio_React_Edition/static/media/ArrayTheGame.9a5cb6e816c5f94420fb.PNG",
     "static/media/Challenge04_shot07.PNG": "/Portfolio_React_Edition/static/media/Challenge04_shot07.e8659e32b6898fe68448.PNG",
     "static/media/Challenge06_shot02.PNG": "/Portfolio_React_Edition/static/media/Challenge06_shot02.fce3963d21bd62fa3b6c.PNG",
     "static/media/EpicBrickBattle.png": "/Portfolio_React_Edition/static/media/EpicBrickBattle.ac722823a62957da0954.png",
@@ -16,11 +17,11 @@
     "static/media/Challenge12_shot02.PNG": "/Portfolio_React_Edition/static/media/Challenge12_shot02.6522aa8bc1c469d00fc3.PNG",
     "index.html": "/Portfolio_React_Edition/index.html",
     "main.dc309cee.css.map": "/Portfolio_React_Edition/static/css/main.dc309cee.css.map",
-    "main.5ad823db.js.map": "/Portfolio_React_Edition/static/js/main.5ad823db.js.map",
+    "main.de747864.js.map": "/Portfolio_React_Edition/static/js/main.de747864.js.map",
     "787.1ed0c42c.chunk.js.map": "/Portfolio_React_Edition/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc309cee.css",
-    "static/js/main.5ad823db.js"
+    "static/js/main.de747864.js"
   ]
 }
