@@ -59,7 +59,7 @@ const portfolioCards = [
     cardTitle: '~ Rig Match Me ~',
     cardText:
       '"Rig Match Me", is where budding musicians go to find the best gear!',
-    cardLink: 'https://www.rigmatchme.com',
+    // cardLink: 'https://www.rigmatchme.com',
     gitLink: 'https://github.com/avni0000patel/Rig-Match-Me',
   },
   {
@@ -92,7 +92,7 @@ const portfolioCards = [
     cardTitle: '~ Bits and Bytes Tech Blog ~',
     cardText:
       '"Bits and Bytes Tech Blog", is an node application with the ability to perform CRUD operations directly through the browser. It is a full stack web application.',
-    cardLink: 'https://thawing-headland-69288.herokuapp.com/',
+    // cardLink: 'https://thawing-headland-69288.herokuapp.com/',
     gitLink: 'https://github.com/alvinkp/BitsAndBytesTechBlogCMS',
   },
   {
