@@ -88,4 +88,5 @@ function Card(props) {
   }
 }
 
+// Remove this
 export default Card;
